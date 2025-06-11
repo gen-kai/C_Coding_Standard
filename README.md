@@ -1,2 +1,3 @@
 # C_Coding_Standard
 This repository aims to standardize my C code practices as much as possible
+[C Naming Conventions](Naming_Conventions.md)
