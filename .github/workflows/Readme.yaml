@@ -17,9 +17,9 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4.2.2
     - name: Update Naming_Conventions.md
-      uses: abhinav/stitchmd-action@v1
+      uses: abhinav/stitchmd-action@v1.1.0
       with:
         mode: write
         summary: Naming_Conventions/Naming_Conventions_Summary.md
@@ -39,9 +39,9 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Update README
-      uses: abhinav/stitchmd-action@v1
+    - uses: actions/checkout@v4.2.2
+    - name: Update README.md
+      uses: abhinav/stitchmd-action@v1.1.0
       with:
         mode: write
         summary: Readme_Summary.md
