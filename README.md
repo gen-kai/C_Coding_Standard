@@ -1,5 +1,16 @@
-# C_Coding_Standard
-This repository aims to standardize my C code practices as much as possible
+- [Naming Conventions](#naming-conventions)
 
-## Table of Contents
-* [C Naming Conventions](Naming_Conventions/Naming_Conventions.md)
+# Naming Conventions
+- [Section Overview](#section-overview)
+- [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
+- [Function Names](#function-names)
+
+## Section Overview
+
+This section describes naming conventions I use when coding in C.
+
+## Preprocessor Directives and Macros
+
+## Function Names
+
+Function names
