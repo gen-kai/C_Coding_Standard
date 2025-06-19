@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Update README
+    - name: Update Naming_Conventions.md
       uses: abhinav/stitchmd-action@v1
       with:
         mode: write
