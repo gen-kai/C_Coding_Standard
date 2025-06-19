@@ -28,7 +28,15 @@ jobs:
       with:
         file_pattern: Naming_Conventions/Naming_Conventions.md
         commit_message: 'Auto-update Naming_Conventions.md with stitchmd'
-        
+
+  Sleep:
+    runs-on: ubuntu-latest
+    name: wait-job
+    steps:
+      - name: Sleep for 3 seconds
+        run: sleep 3s
+        shell: bash
+    
   Update_Readme:
     name: Update Readme.md
     runs-on: ubuntu-latest
