@@ -1,0 +1,29 @@
+#Create Naming_Conventions.md
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  update-docs:
+    name: Update Naming_Conventions.md
+    runs-on: ubuntu-latest
+
+    # Needed to give the job permission
+    # to push to the repository.
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Update README
+      uses: abhinav/stitchmd-action@v1
+      with:
+        mode: write
+        summary: Naming_Conventions/Naming_Conventions_Summary.md
+        output: Naming_Conventions/Naming_Conventions.md
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        file_pattern: Naming_Conventions/Naming_Conventions.md
+        commit_message: 'Auto-update Naming_Conventions.md with stitchmd'
