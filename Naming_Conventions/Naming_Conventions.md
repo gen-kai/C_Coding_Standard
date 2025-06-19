@@ -1,13 +1,13 @@
 # Naming Conventions
-- [Overview](#overview)
-- [Preprocessor_Directives_and_Macros](#preprocessor_directives_and_macros)
+- [Section Overview](#section-overview)
+- [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
 - [Function Names](#function-names)
 
-## Overview
+## Section Overview
 
 This section describes naming conventions I use when coding in C.
 
-## Preprocessor_Directives_and_Macros
+## Preprocessor Directives and Macros
 
 ## Function Names
 
