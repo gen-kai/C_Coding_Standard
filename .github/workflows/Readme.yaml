@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-docs:
-    name: Update Naming_Conventions.md
+    name: Update Readme.md
     runs-on: ubuntu-latest
 
     # Needed to give the job permission
@@ -21,9 +21,9 @@ jobs:
       uses: abhinav/stitchmd-action@v1
       with:
         mode: write
-        summary: Naming_Conventions/Naming_Conventions_Summary.md
-        output: Naming_Conventions/Naming_Conventions.md
+        summary: Readme_Summary.md
+        output: README.md
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        file_pattern: Naming_Conventions/Naming_Conventions.md
+        file_pattern: README.md
         commit_message: 'Auto-update Naming_Conventions.md with stitchmd'
