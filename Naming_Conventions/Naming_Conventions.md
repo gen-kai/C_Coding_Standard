@@ -12,11 +12,11 @@ This section describes naming conventions I use when coding in C.
 
 When defining custom types, such syntax is used:
 
-```с
+```c
 typedef type_name new_type_name
-```.
-Custom type names use a delimiter-separated style, where the underscore serves as the delimiter to separate words.
 ```
+
+Custom type names use a delimiter-separated style, where the underscore serves as the delimiter to separate words.
 
 ## Preprocessor Directives and Macros
 
