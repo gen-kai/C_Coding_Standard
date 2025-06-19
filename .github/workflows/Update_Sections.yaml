@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-    - name: Update Naming_Conventions.md
+      name: Update Naming_Conventions.md
     - uses: abhinav/stitchmd-action@fea871cb92ec395350cd06a5e07fe3b43de1d7b4
       with:
         mode: write
