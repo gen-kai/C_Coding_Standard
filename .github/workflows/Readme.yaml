@@ -26,4 +26,4 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         file_pattern: README.md
-        commit_message: 'Auto-update Naming_Conventions.md with stitchmd'
+        commit_message: 'Auto-update README.md with stitchmd'
