@@ -10,7 +10,7 @@ Example:
 ```c
 int SetIntVarValue(int varToSet, int valueToBeSet);
 ```
-</br>
+---
 
 When declaring/defining functions that return boolean values:
 - All general rules apply.
@@ -20,7 +20,7 @@ Example:
 ```c
 bool IsVarEqualToValue(int varToCompare, int valueToBeComparedWith);
 ```
-</br>
+---
 
 When declaring/defining functions that operate on pointers:
 - All general rules apply.
