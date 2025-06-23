@@ -10,7 +10,7 @@
   - [Functions](#functions)
 - [Formatting](#formatting)
 - [Core Principles](#core-principles)
-- [Program Files Layout/Code Structure](#program-files-layoutcode-structure)
+- [Program Files Layout/Structure](#program-files-layoutstructure)
 
 # Overview
 
@@ -166,4 +166,4 @@ This section describes formatting rules I follow when coding in C.
 
 This section describes core principles I follow when coding in C.
 
-# Program Files Layout/Code Structure
+# Program Files Layout/Structure
