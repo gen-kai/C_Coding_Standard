@@ -4,7 +4,6 @@ When defining custom types:
 - Custom types should always consist of at least 2 words.
 - A word can be an actual alpha word, a number, or an abbreviation (only if this abbreviation is widely used and is clear to understand, such as `u` in `u_int`).
 - If a word is an actual alpha word or an abbreviation, it should only contain lower-case letters.
-</br>
 
 Example:
 ```c
