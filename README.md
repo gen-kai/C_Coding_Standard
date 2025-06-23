@@ -10,7 +10,7 @@
   - [Structures](#structures)
   - [Functions](#functions)
 
-## Overview
+# Overview
 
 This repository aims to standardize my C code practices as much as possible.</br>
 Here, I will describe how I name different language constructs, the techniques I use, and the rules I follow.</br>
@@ -19,13 +19,13 @@ This document consists of several sections, each residing in a different directo
 Each section consists of several subsections that are assembled into a single file, which represents the section.</br>
 Those section files are then assembled into the resulting document (README.md).
 
-## Naming Conventions
+# Naming Conventions
 
-### Section Overview
+## Section Overview
 
 This section describes naming conventions I use when coding in C.
 
-### Type Definitions
+## Type Definitions
 
 When defining custom types:
 - Custom type names should use a delimiter-separated style, where the `underscore (_)` serves as the delimiter to separate words.
@@ -40,7 +40,7 @@ Example:
 typedef unsigned int u_int
 ```
 
-### Preprocessor Directives and Macros
+## Preprocessor Directives and Macros
 
 When using a `#define` directive to define a constant value:
 - Constant values' names should use a delimiter-separated style, where the underscore (_) serves as the delimiter to separate words.
@@ -55,7 +55,7 @@ Example:
 #define MAX_TEXT_SIZE 4000
 ```
 
-### Constants
+## Constants
 
 When using a `const` modifier to define a constant value:
 - Constant values' names should use a delimiter-separated style, where the underscore (_) serves as the delimiter to separate words.
@@ -70,13 +70,13 @@ Example:
 const int MAX_TEXT_SIZE = 4000;
 ```
 
-### Variables
+## Variables
 
-### Pointers
+## Pointers
 
-### Structures
+## Structures
 
-### Functions
+## Functions
 
 General rules when declaring/defining a function:
 - Function names should use PascalCase naming style, where the first letter of each word is written in upper-case and there are no delimiters between words.
