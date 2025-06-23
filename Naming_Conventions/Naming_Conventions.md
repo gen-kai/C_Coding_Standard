@@ -1,8 +1,1 @@
-- [Section Overview](Section_Overview.md)
-- [Type Definitions](Type_Definitions.md)
-- [Preprocessor Directives and Macros](Preprocessor_Directives_and_Macros.md)
-- [Constants](Constants.md)
-- [Variables](Variables.md)
-- [Pointers](Pointers.md)
-- [Structures](Structures.md)
-- [Functions](Functions.md)
+This section describes naming conventions I use when coding in C.
