@@ -79,7 +79,7 @@ const int MAX_TEXT_SIZE = 4000;
 
 General rules when declaring/defining a function:
 - Function names should use PascalCase naming style, where the first letter of each word is written in upper-case and there are no delimiters between words.
-- All words in custom types must be concise and clear to understand.
+- All words in function names must be concise and clear to understand.
 - Constant values' names should always consist of at least 2 words.
 - A word can be an actual alpha word, a number, or an abbreviation (only if this abbreviation is widely used and is clear to understand).
 - Function parameters' names should follow naming conventions for the said constructs (e.g., variables should be named as defined by variable naming conventions, etc.).
