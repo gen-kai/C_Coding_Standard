@@ -1,1 +1,1 @@
-This section specifies formatting rules when coding in C.
+This section specifies formatting rules I use when coding in C.
