@@ -9,8 +9,9 @@
   - [Structures](#structures)
   - [Functions](#functions)
 - [Formatting](#formatting)
-- [Core Principles](#core-principles)
+- [Comments](#comments)
 - [Program Files Layout/Structure](#program-files-layoutstructure)
+- [Core Principles](#core-principles)
 
 # Overview
 
@@ -162,8 +163,10 @@ int ModifyPointer(void *pointerToModify, int valueToModifyBy);
 
 This section describes formatting rules I follow when coding in C.
 
+# Comments
+
+# Program Files Layout/Structure
+
 # Core Principles
 
 This section describes core principles I follow when coding in C.
-
-# Program Files Layout/Structure
