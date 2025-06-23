@@ -1,7 +1,6 @@
 # C Coding Standard
 - [Overview](#overview)
 - [Naming Conventions](#naming-conventions)
-  - [Section Overview](#section-overview)
   - [Type Definitions](#type-definitions)
   - [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
   - [Constants](#constants)
@@ -20,8 +19,6 @@ Each section consists of several subsections that are assembled into a single fi
 Those section files are then assembled into the resulting document (README.md).
 
 # Naming Conventions
-
-## Section Overview
 
 This section describes naming conventions I use when coding in C.
 
