@@ -1,5 +1,13 @@
 - [Overview](#overview)
 - [Naming Conventions](#naming-conventions)
+  - [Section Overview](#section-overview)
+  - [Type Definitions](#type-definitions)
+  - [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
+  - [Constants](#constants)
+  - [Variables](#variables)
+  - [Pointers](#pointers)
+  - [Structures](#structures)
+  - [Functions](#functions)
 
 # Overview
 
@@ -11,14 +19,6 @@ Each section consists of several subsections that are assembled into a single fi
 Those section files are then assembled into the resulting document (README.md).
 
 # Naming Conventions
-- [Section Overview](#section-overview)
-- [Type Definitions](#type-definitions)
-- [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
-- [Constants](#constants)
-- [Variables](#variables)
-- [Pointers](#pointers)
-- [Structures](#structures)
-- [Functions](#functions)
 
 ## Section Overview
 
