@@ -10,4 +10,4 @@
   - [Functions](Naming_Conventions/Functions.md)
 - [Formatting](Formatting/Formatting.md)
 - [Core Principles](Core_Principles/Core_Principles.md)
-- [Program Files Layout/Code Structure](Program_Files_Layout/Program_Files_Layout.md)
+- [Program Files Layout/Structure](Program_Files_Layout/Program_Files_Layout.md)
