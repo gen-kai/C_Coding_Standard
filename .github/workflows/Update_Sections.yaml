@@ -4,37 +4,11 @@ on:
   pull_request:
 
 jobs:
-  Update_Naming_Conventions:
-  #Create/update Naming_Conventions/Naming_Conventions.md
-    name: Update Naming_Conventions.md
-    runs-on: ubuntu-latest
-
-    # Needed to give the job permission
-    # to push to the repository.
-    permissions:
-      contents: write
-
-    steps:
-    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-    - name: Update Naming_Conventions.md
-      uses: abhinav/stitchmd-action@fea871cb92ec395350cd06a5e07fe3b43de1d7b4
-      with:
-        mode: write
-        summary: Naming_Conventions/Naming_Conventions_Summary.md
-        output: Naming_Conventions/Naming_Conventions.md
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0
-      with:
-        file_pattern: Naming_Conventions/Naming_Conventions.md
-        commit_message: 'Auto-update Naming_Conventions.md with stitchmd'
-
   Update_Readme:
   #Create/update Readme.md
     name: Update Readme.md
     runs-on: ubuntu-latest
 
-    needs: Update_Naming_Conventions
-
     # Needed to give the job permission
     # to push to the repository.
     permissions:
@@ -42,8 +16,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-    - name: Pull repo
-      run: git pull
     - name: Update README.md
       uses: abhinav/stitchmd-action@fea871cb92ec395350cd06a5e07fe3b43de1d7b4
       with:
