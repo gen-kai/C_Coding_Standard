@@ -16,6 +16,9 @@ Those section files are then assembled into the resulting document (README.md).
 - [Type Definitions](#type-definitions)
 - [Preprocessor Directives and Macros](#preprocessor-directives-and-macros)
 - [Constants](#constants)
+- [Variables](#variables)
+- [Pointers](#pointers)
+- [Structures](#structures)
 - [Functions](#functions)
 
 ### Section Overview
@@ -66,6 +69,12 @@ Example:
 ```c
 const int MAX_TEXT_SIZE = 4000;
 ```
+
+### Variables
+
+### Pointers
+
+### Structures
 
 ### Functions
 
