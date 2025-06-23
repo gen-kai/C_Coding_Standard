@@ -8,3 +8,5 @@
   - [Pointers](Naming_Conventions/Pointers.md)
   - [Structures](Naming_Conventions/Structures.md)
   - [Functions](Naming_Conventions/Functions.md)
+- [Formatting](Formatting.md)
+- [Core Principles](Core_Principles.md)
