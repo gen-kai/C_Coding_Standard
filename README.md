@@ -64,7 +64,7 @@ When using a `const` modifier to define a constant value:
 Example:
 
 ```c
-const int MAX_TEXT_SIZE 4000
+const int MAX_TEXT_SIZE = 4000;
 ```
 
 ### Function Names
