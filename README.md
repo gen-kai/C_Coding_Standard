@@ -119,7 +119,7 @@ int ModifyPointer(void *pointerToModify, int valueToModifyBy);
 
 # Formatting
 
-This section specifies formatting rules I follow when coding in C.
+This section describes formatting rules I follow when coding in C.
 
 # Core Principles
 
