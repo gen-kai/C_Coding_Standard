@@ -8,6 +8,8 @@
   - [Pointers](#pointers)
   - [Structures](#structures)
   - [Functions](#functions)
+- [Formatting](#formatting)
+- [Core Principles](#core-principles)
 
 # Overview
 
@@ -114,3 +116,11 @@ Example:
 ```c
 int ModifyPointer(void *pointerToModify, int valueToModifyBy);
 ```
+
+# Formatting
+
+This section specifies formatting rules I follow when coding in C.
+
+# Core Principles
+
+This section describes core principles I follow when coding in C.
