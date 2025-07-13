@@ -38,7 +38,7 @@ When defining custom types:
 Example:
 
 ```c
-typedef unsigned int u_int
+typedef unsigned int u_int;
 ```
 
 ## Preprocessor Directives and Macros
