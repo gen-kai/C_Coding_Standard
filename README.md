@@ -137,7 +137,7 @@ int SetIntVarValue(int varToSet, int valueToBeSet);
 
 ---
 
-When declaring/defining functions that return boolean values:
+When declaring/defining functions that are used as operands in `if ()` statements:
 - All general rules apply.
 - The name of the function should start with the word `Is`.
 
@@ -145,20 +145,6 @@ Example:
 
 ```c
 bool IsVarEqualToValue(int varToCompare, int valueToBeComparedWith);
-```
-
----
-
-When declaring/defining functions that operate on pointers:
-- All general rules apply.
-- The sole exception to the rule about Function parameters' names is pointers: they should use naming conventions for variables, but always include `pointer` as the first word of the name (e.g., `pointerName` instead of `p_varName`).
-
-This rule was created because the naming convention for pointers does not produce meaningful names in such cases, unlike in generalized cases.
-
-Example:
-
-```c
-int ModifyPointer(void *pointerToModify, int valueToModifyBy);
 ```
 
 # Formatting
