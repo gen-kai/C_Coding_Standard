@@ -132,7 +132,7 @@ General rules when declaring/defining a function:
 Example:
 
 ```c
-bool SetIntVarValue(int* varToSet, int valueToBeSet);
+bool SetIntVarValue(int* p_varToSet, int valueToBeSet);
 ```
 
 ---
