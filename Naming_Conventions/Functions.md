@@ -8,7 +8,7 @@ General rules when declaring/defining a function:
 
 Example:
 ```c
-int SetIntVarValue(int varToSet, int valueToBeSet);
+bool SetIntVarValue(int* varToSet, int valueToBeSet);
 ```
 ---
 When declaring/defining functions that are used as operands in `if ()` statements:
