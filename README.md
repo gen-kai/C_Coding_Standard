@@ -155,7 +155,7 @@ This section describes formatting rules I follow when coding in C.
 ## ClangFormat
 
 I use ClangFormat tools to format my code files.
-All the settings I use can be found in [ClangFormat config file](Formatting/Formatting/.clang-format.md)
+All the settings I use can be found in [ClangFormat config file](Formatting/.clang-format)
 
 # Comments
 
