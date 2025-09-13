@@ -9,6 +9,7 @@
   - [Structures](Naming_Conventions/Structures.md)
   - [Functions](Naming_Conventions/Functions.md)
 - [Formatting](Formatting/Formatting.md)
+  - [ClangFormat](Formatting/ClangFormat.md)
 - [Comments](Comments/Comments.md)
 - [Program Files Layout/Structure](Program_Files_Layout/Program_Files_Layout.md)
 - [Core Principles](Core_Principles/Core_Principles.md)
