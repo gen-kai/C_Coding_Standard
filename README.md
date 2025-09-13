@@ -9,6 +9,7 @@
   - [Structures](#structures)
   - [Functions](#functions)
 - [Formatting](#formatting)
+  - [ClangFormat](#clangformat)
 - [Comments](#comments)
 - [Program Files Layout/Structure](#program-files-layoutstructure)
 - [Core Principles](#core-principles)
@@ -150,6 +151,11 @@ bool IsVarEqualToValue(int varToCompare, int valueToBeComparedWith);
 # Formatting
 
 This section describes formatting rules I follow when coding in C.
+
+## ClangFormat
+
+I use ClangFormat tools to format my code files.
+All the settings I use can be found in [ClangFormat config file](Formatting/Formatting/.clang-format.md)
 
 # Comments
 
